@@ -1,0 +1,17 @@
+{
+  "name": "api-syn",
+  "version": "1.0.0",
+  "description": "APJC EIS Session 1, API Synthetic Monitoring Sample Script",
+  "license": "ISC",
+  "author": "Vikash Gounder",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.11",
+    "assert": "^2.1.0",
+    "got": "^14.4.9"
+  }
+}
