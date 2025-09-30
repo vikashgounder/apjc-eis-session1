@@ -130,7 +130,7 @@ try:
     login_page.navigate_to_login_page("https://www.saucedemo.com/")
     
     logger.info("Attempting login with locked-out user.")
-    login_page.login("locked_out_user", "secret_sauce") # use locked username, password combo or use from AppD Synthetic vault
+    login_page.login("", "") # use locked username, password combo or use from AppD Synthetic vault
     
     logger.info("Verifying error message.")
     assert login_page.get_error_message() == "Epic sadface: Sorry, this user has been locked out."
@@ -138,7 +138,7 @@ try:
     
     logger.info("Successfully verified error. Refreshing and logging in with a valid user.")
     driver.refresh()
-    login_page.login("standard_user", "secret_sauce") # use username, password combo, correct credentials or use from AppD Synthetic vault
+    login_page.login("", "") # use username, password combo, correct credentials or use from AppD Synthetic vault
     
     logger.info("Adding backpack to cart.")
     products_page.add_backpack_to_cart()
