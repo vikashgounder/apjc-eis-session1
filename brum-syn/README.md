@@ -11,9 +11,11 @@ To test this script locally, the following prerequisite, steps need to be comple
 
 - Python 3+ is needed
     
-## Steps
+## Steps for Session 1 - Building your first Synthetic Script
 
-To run this project, you will need to create a environment and add python packages.
+To run this script locally, do follow the instructions as per the comment on the script and the credentials used in this script are available on https://saucedemo.com/. 
+The credentails being used in the script are the standard username and password.
+When uploading the script on Splunk Appdynamics Controller, please reference the key's from the Synthetic Vault.
 
 
 ```bash
@@ -21,6 +23,17 @@ To run this project, you will need to create a environment and add python packag
   source ./env/bin/activate
   pip install -r requirements.txt
   python brum-syn.py
+```
+
+## Steps for Session 2 - Advanced BRUM Script Building
+
+To run this script locally, do follow the instructions as per the comment on the script and the credentials used in this script are available on https://saucedemo.com/. 
+The credentials being used in the script are standard, locked username and password.
+When uploading the script on Splunk Appdynamics Controller, please reference the key's from the Synthetic Vault.
+
+
+```bash
+  python brum-syn-adv.py
 ```
 
 ### Upload Script on Splunk AppDynamics controller

@@ -51,11 +51,11 @@ try:
     # Example usage of the consolidated function
     logger.info("Entering username...")
     username_field = find_element_with_wait(By.ID, "user-name")
-    username_field.send_keys("")    #enter username or use synthetic vault key
+    username_field.send_keys("")    #enter username when local testing and use Splunk AppDynamics synthetic vault key
 
     logger.info("Entering password...")
     password_field = find_element_with_wait(By.ID, "password")
-    password_field.send_keys("")    #enter password or use synthetic vault key
+    password_field.send_keys("")    #enter password when local testing and Splunk AppDynamcis synthetic vault key
 
     logger.info("Screenshot before clicking Login.")
     driver.get_screenshot_as_file("login-screen.png")
