@@ -51,7 +51,7 @@ try:
     # Example usage of the consolidated function
     logger.info("Entering username...")
     username_field = find_element_with_wait(By.ID, "user-name")
-    username_field.send_keys("")    ##enter username or use synthetic vault key
+    username_field.send_keys("")    #enter username or use synthetic vault key
 
     logger.info("Entering password...")
     password_field = find_element_with_wait(By.ID, "password")
