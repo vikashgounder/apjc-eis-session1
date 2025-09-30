@@ -41,6 +41,11 @@ To test this script locally, the following prerequisite, steps need to be comple
 Copy the script and make the necessary changes as per the comments, remove any username, password and utilise the Synthetic Vault in the controller.
 ```
 
+### Exit Python Virtual Environment
+```
+deactivate
+```
+
 
 ## Author
 
